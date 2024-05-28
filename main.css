@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+body>header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.titulo{text-transform: uppercase;}
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article a{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px !important;
+}
+
+article a:hover{
+    background: #8359A3 !important;
+    color: #fff !important;
+}
+
+.articles img {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+}
+time {
+    font-size: 12px;
+    display: flex;
+    justify-content: end;
+    padding: 2px 0 5px;
+    color: #555;
+}
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 30px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles articleh3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .articles article a {
+    background-color: #009432;
+    color: #000;
+}
+
+#economy {
+    background-color: #f8f59f;
+}
+
+#economy .articles article a {
+    background-color: #ff9f1a;
+    color: #000;
+}
+
+#technology {
+    background-color: #ff7f50;
+}
+
+#technology .articles article a {
+    background-color: #1E426C;
+    color: #fff;
+}
+
+#entertainment {
+    background-color: #56f5e0;
+}
+
+#entertainment .articles article a {
+    background-color: #8359A3;
+    color: #fff;
+}
